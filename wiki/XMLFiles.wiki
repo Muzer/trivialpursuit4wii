@@ -39,3 +39,7 @@ This format:
 <category id="0" name="Hello, World!" colour="blue" />
 <category id="1" etc etc />
 }}}
+
+The "language" string should be in the ISO639-1_ISO3166 format (ISO639-1 being language code, IOS3166 being country code). ISO639-1 language codes: http://www.loc.gov/standards/iso639-2/php/English_list.php . ISO3166 country codes: http://www.iso.org/iso/country_codes/iso_3166_code_lists/english_country_names_and_code_elements.htm .
+
+For example, for French (France), the code will be fr_FR. For German in Switzerland, it will be de_CH.
