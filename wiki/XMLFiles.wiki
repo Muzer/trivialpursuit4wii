@@ -1,0 +1,41 @@
+#summary Details of the various .xml files to be used
+
+= Introduction =
+
+There will be at least three XML files during normal operation.
+
+fat3:/trivial_pursuit/settings.xml - The settings file for the app itself
+
+fat3:/trivial_pursuit/questions_database_default.xml - The default questions database
+
+fat3:/trivial_pursuit/questions_settings_default.xml - The settings (eg category names etc) for the default questions
+
+It will be possible to grab questions XMLs from the internet (possibly from the app?). It will detect any file in the trivial_pursuit folder called questions_settings_*.xml . It will then go into that file and grab the name for the database, and display a list of these on the screen. Once you select the one you want, it will first look on a specific server if there is a new version of that database (it will check a simple version.txt file). If there is a new version, it will download it. It will then load the questions_settings file and the associated database file into RAM, as a struct.
+
+
+= Details =
+
+== Settings.xml ==
+
+This file is currently undecided
+
+== questions_database_*.xml ==
+
+It will be in this format:
+
+{{{
+<?xml version="1.0"?>
+<question id="0" text="Hello, world?" possibleanswers="3" answer1="Hello, world!" answer2="Have fun, world!" answer3="Goodbye, world!" correctanswer="1" category="0" hasimage="1" hasaudio="0" hasvideo="0" imagepath="fat3:/trivial_pursuit/questions_media_default/image0.png" />
+<question id="1" etc etc />
+}}}
+
+== questions_settings_*.xml ==
+
+This format:
+
+{{{
+<?xml version="1.0"?>
+<info version="1.0" name="Hello world database" />
+<category id="0" name="Hello, World!" colour="blue" />
+<category id="1" etc etc />
+}}}
