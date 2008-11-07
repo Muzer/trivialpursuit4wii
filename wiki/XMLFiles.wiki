@@ -35,7 +35,7 @@ This format:
 
 {{{
 <?xml version="1.0"?>
-<info version="1.0" name="Hello world database" />
+<info version="1.0" name="Hello world database" language="en_GB" />
 <category id="0" name="Hello, World!" colour="blue" />
 <category id="1" etc etc />
 }}}
