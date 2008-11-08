@@ -25,6 +25,7 @@ It will be in this format:
 
 {{{
 <?xml version="1.0"?>
+<summary biggestid="1" />
 <question id="0" text="Hello, world?" possibleanswers="3" answer1="Hello, world!" answer2="Have fun, world!" answer3="Goodbye, world!" correctanswer="1" category="0" hasimage="1" hasaudio="0" hasvideo="0" imagepath="fat3:/trivial_pursuit/questions_media_default/image0.png" />
 <question id="1" etc etc />
 }}}
