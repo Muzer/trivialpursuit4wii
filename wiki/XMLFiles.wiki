@@ -29,7 +29,7 @@ It will be in this format:
 <question id="1" etc etc />
 }}}
 
-Possible answers is maximum 4.
+Possible answers is maximum 6.
 
 == questions_settings_*.xml ==
 
