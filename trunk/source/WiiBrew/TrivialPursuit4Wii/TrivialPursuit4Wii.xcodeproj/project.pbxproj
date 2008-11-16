@@ -1,0 +1,204 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		52DE2CDA0D85E9E100F4BC3F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		52E8117C0D85ECE200227376 /* TrivialPursuit4Wii.dol */ = {isa = PBXFileReference; lastKnownFileType = file; path = TrivialPursuit4Wii.dol; sourceTree = "<group>"; };
+		52E8117D0D85ECE200227376 /* TrivialPursuit4Wii.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TrivialPursuit4Wii.elf; sourceTree = "<group>"; };
+		E21033710ED0B7A5003F58AE /* wiitriviaheadingimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wiitriviaheadingimage.h; sourceTree = "<group>"; };
+		E21033720ED0B7A5003F58AE /* cardimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cardimage.h; sourceTree = "<group>"; };
+		E21033730ED0B7A5003F58AE /* stdfont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdfont.h; sourceTree = "<group>"; };
+		E21033A00ED0B855003F58AE /* graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphics.h; sourceTree = "<group>"; };
+		E21033A10ED0B855003F58AE /* graphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphics.cpp; sourceTree = "<group>"; };
+		E21033AF0ED0B8A6003F58AE /* GRRLIB_font1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GRRLIB_font1.c; sourceTree = "<group>"; };
+		E21033B00ED0B8A6003F58AE /* GRRLIB_font1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRRLIB_font1.h; sourceTree = "<group>"; };
+		E21033B10ED0B8A6003F58AE /* GRRLIB_font1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GRRLIB_font1.png; sourceTree = "<group>"; };
+		E21033B20ED0B8A6003F58AE /* GRRLIB.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GRRLIB.c; sourceTree = "<group>"; };
+		E21033B30ED0B8A6003F58AE /* GRRLIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRRLIB.h; sourceTree = "<group>"; };
+		E21033D50ED0B906003F58AE /* png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = png.h; sourceTree = "<group>"; };
+		E21033D60ED0B906003F58AE /* pngconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngconf.h; sourceTree = "<group>"; };
+		E21033D80ED0B906003F58AE /* pngu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngu.c; sourceTree = "<group>"; };
+		E21033D90ED0B906003F58AE /* pngu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngu.h; sourceTree = "<group>"; };
+		E2C959F70ECCCDDE000D5160 /* cardimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardimage.png; sourceTree = "<group>"; };
+		E2C95A090ECCD008000D5160 /* wiitriviaheadingimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wiitriviaheadingimage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* TrivialPursuit4Wii */ = {
+			isa = PBXGroup;
+			children = (
+				52DE2CDA0D85E9E100F4BC3F /* Makefile */,
+				08FB7795FE84155DC02AAC07 /* source */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = TrivialPursuit4Wii;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				E21033AD0ED0B8A6003F58AE /* GRRLIB */,
+				E21033A00ED0B855003F58AE /* graphics.h */,
+				E21033A10ED0B855003F58AE /* graphics.cpp */,
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+				E2C959F60ECCCDDE000D5160 /* resources */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52E8117C0D85ECE200227376 /* TrivialPursuit4Wii.dol */,
+				52E8117D0D85ECE200227376 /* TrivialPursuit4Wii.elf */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E21033AD0ED0B8A6003F58AE /* GRRLIB */ = {
+			isa = PBXGroup;
+			children = (
+				E21033D40ED0B906003F58AE /* libpng */,
+				E21033AE0ED0B8A6003F58AE /* fonts */,
+				E21033B20ED0B8A6003F58AE /* GRRLIB.c */,
+				E21033B30ED0B8A6003F58AE /* GRRLIB.h */,
+			);
+			path = GRRLIB;
+			sourceTree = "<group>";
+		};
+		E21033AE0ED0B8A6003F58AE /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E21033AF0ED0B8A6003F58AE /* GRRLIB_font1.c */,
+				E21033B00ED0B8A6003F58AE /* GRRLIB_font1.h */,
+				E21033B10ED0B8A6003F58AE /* GRRLIB_font1.png */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		E21033D40ED0B906003F58AE /* libpng */ = {
+			isa = PBXGroup;
+			children = (
+				E21033D50ED0B906003F58AE /* png.h */,
+				E21033D60ED0B906003F58AE /* pngconf.h */,
+				E21033D70ED0B906003F58AE /* pngu */,
+			);
+			path = libpng;
+			sourceTree = "<group>";
+		};
+		E21033D70ED0B906003F58AE /* pngu */ = {
+			isa = PBXGroup;
+			children = (
+				E21033D80ED0B906003F58AE /* pngu.c */,
+				E21033D90ED0B906003F58AE /* pngu.h */,
+			);
+			path = pngu;
+			sourceTree = "<group>";
+		};
+		E2C959F60ECCCDDE000D5160 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				E21033710ED0B7A5003F58AE /* wiitriviaheadingimage.h */,
+				E21033720ED0B7A5003F58AE /* cardimage.h */,
+				E21033730ED0B7A5003F58AE /* stdfont.h */,
+				E2C95A090ECCD008000D5160 /* wiitriviaheadingimage.png */,
+				E2C959F70ECCCDDE000D5160 /* cardimage.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		52DE2CDF0D85EA4C00F4BC3F /* Makefile */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 52DE2CE50D85EA9300F4BC3F /* Build configuration list for PBXLegacyTarget "Makefile" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = Makefile;
+			passBuildSettingsInEnvironment = 1;
+			productName = Makefile;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "TrivialPursuit4Wii" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* TrivialPursuit4Wii */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52DE2CDF0D85EA4C00F4BC3F /* Makefile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVKITPPC = /opt/devkitpro/devkitppc;
+				DEVKITPRO = /opt/devkitpro;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVKITPPC = /opt/devkitpro/devkitppc;
+				DEVKITPRO = /opt/devkitpro;
+			};
+			name = Release;
+		};
+		52DE2CE00D85EA4C00F4BC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Makefile;
+			};
+			name = Debug;
+		};
+		52DE2CE10D85EA4C00F4BC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Makefile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "TrivialPursuit4Wii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DE2CE50D85EA9300F4BC3F /* Build configuration list for PBXLegacyTarget "Makefile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DE2CE00D85EA4C00F4BC3F /* Debug */,
+				52DE2CE10D85EA4C00F4BC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
