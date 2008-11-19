@@ -20,7 +20,7 @@
 #define BLACK 0xffff
 #define WHITE 0x0000
 
-
+//added line
 
 
 Mtx GXmodelView2D;
