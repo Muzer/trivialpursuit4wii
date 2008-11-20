@@ -59,19 +59,19 @@ int displayMenu(){
 	while(true){
 		WPAD_ScanPads();
 		renderLogo();
-		GRRLIB_Printf(100, 300, tex_stdfont, BLACK, 1, "Play Game:");
-		GRRLIB_Printf(200, 350, tex_stdfont, BLACK, 1, "2 Teams");
-		GRRLIB_Printf(200, 400, tex_stdfont, BLACK, 1, "3 Teams");
-		GRRLIB_Printf(200, 450, tex_stdfont, BLACK, 1, "4 Teams");
+		GRRLIB_Printf(100, 300, tex_stdfont, WHITE, 1, "Play Game:");
+		GRRLIB_Printf(200, 350, tex_stdfont, WHITE, 1, "2 Teams");
+		GRRLIB_Printf(200, 400, tex_stdfont, WHITE, 1, "3 Teams");
+		GRRLIB_Printf(200, 450, tex_stdfont, WHITE, 1, "4 Teams");
 		switch (cursorPosition) {
 			case 1:
-				GRRLIB_Printf(190, 350, tex_stdfont, BLACK, 1, ">>");
+				GRRLIB_Printf(190, 350, tex_stdfont, WHITE, 1, ">>");
 				break;
 			case 2:
-				GRRLIB_Printf(190, 400, tex_stdfont, BLACK, 1, ">>");
+				GRRLIB_Printf(190, 400, tex_stdfont, WHITE, 1, ">>");
 				break;
 			case 3:
-				GRRLIB_Printf(190, 450, tex_stdfont, BLACK, 1, ">>");
+				GRRLIB_Printf(190, 450, tex_stdfont, WHITE, 1, ">>");
 				break;
 		}
 		GRRLIB_Render();
@@ -81,6 +81,8 @@ int displayMenu(){
 			cursorPosition --;
 		if(WPAD_ButtonsDown (0) & WPAD_BUTTON_A)
 			break;
+		if(WPAD_ButtonsDown (0) & WPAD_BUTTON_HOME)
+			exit(0);
 		VIDEO_WaitVSync();
 		
 	}
